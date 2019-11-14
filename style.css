@@ -3,26 +3,17 @@ body {
     padding: 0;
     background: #dddddd;
 }
-.container {
-    background: #222;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 #timer {
     color: #fff;
-    font-size: 4rem;
+    font-size: 12px;
 }
 .label {
-    font-size: 2.5rem;
-    padding-left: 0.25rem;
+    font-size: 24px;;
+    padding-left: 12px;;
 }
 
 p {
   /* text-align: center; */
-  font-size: 36px;
   font-family: 'Lato', sans-serif;
   clear:both;
 
@@ -30,8 +21,8 @@ p {
 
 #labels div,  #numbers div {
   float: left;
-  width: 108px;
-  font-size: 36px;
+  width: 72px;
+  font-size: 16px;
   font-family: 'Lato', sans-serif;
   text-align: center;
 
@@ -45,8 +36,8 @@ p {
 }
 
 #numbers div {
-  font-size: 54px;
-  min-height: 70px;
+  font-size: 36px;
+  min-height: 36px;
 }
 
 #numbers .seconds {
