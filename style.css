@@ -3,13 +3,14 @@ body {
     padding: 0;
     background: #dddddd;
 }
+
 #timer {
     color: #fff;
     font-size: 12px;
 }
 .label {
-    font-size: 24px;;
-    padding-left: 12px;;
+    font-size: 12px;;
+    padding-left: 12px;
 }
 
 p {
@@ -21,7 +22,7 @@ p {
 
 #labels div,  #numbers div {
   float: left;
-  width: 72px;
+  width: 48px;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -36,7 +37,7 @@ p {
 }
 
 #numbers div {
-  font-size: 36px;
+  font-size: 24px;
   min-height: 36px;
 }
 
