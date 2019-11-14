@@ -1,6 +1,6 @@
 body {
-    margin-left: 36px;
     background: #dddddd;
+    text-align: center;
 }
 
 #timer {
@@ -16,12 +16,16 @@ p {
   /* text-align: center; */
   font-family: 'Lato', sans-serif;
   clear:both;
+}
 
+#clock{
+  margin: auto;
+  width: 288px;
 }
 
 #labels div,  #numbers div {
   float: left;
-  width: 48px;
+  width: 72px;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -36,7 +40,7 @@ p {
 }
 
 #numbers div {
-  font-size: 24px;
+  font-size: 36px;
   min-height: 36px;
 }
 
