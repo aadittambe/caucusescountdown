@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #dddddd;
+}
+.container {
+    background: #222;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#timer {
+    color: #fff;
+    font-size: 4rem;
+}
+.label {
+    font-size: 2.5rem;
+    padding-left: 0.25rem;
+}
+
+p {
+  /* text-align: center; */
+  font-size: 36px;
+  font-family: 'Lato', sans-serif;
+  clear:both;
+
+}
+
+#labels div,  #numbers div {
+  float: left;
+  width: 108px;
+  font-size: 36px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+
+}
+#numbers .separator{
+  width: 0px;
+}
+
+#labels, #numbers {
+  clear: left;
+}
+
+#numbers div {
+  font-size: 54px;
+  min-height: 70px;
+}
+
+#numbers .seconds {
+  color: #CEB47C;
+  font-weight: bold;
+}
